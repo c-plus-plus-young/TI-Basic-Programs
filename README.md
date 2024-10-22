@@ -20,5 +20,5 @@ unfortunately must be a single character, meaning they are rarely
 descriptive. When appropriate, commonly used letters were preserved
 (such as A, B, and C being side lengths of triangles), otherwise 
 additional letters were added in alphabetical order in most cases.
-I tried to avoid using X and Y, as I've heard modifying these 
-variables can mess with graphs. 
+On a related note I try and avoid using X and Y, as these are typically
+used for the graphs. 
