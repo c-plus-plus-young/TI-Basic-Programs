@@ -1,0 +1,30 @@
+# Note that this file has been modified for ease of reading.
+# It will not run on a TI-84.
+Disp "A^T b=A^T Ax"
+Disp "This program requires"
+Disp "matrices [A] and [B]"
+Disp "to have already been made."
+Disp ""
+Disp "If you have not made them,"
+Disp "press 0 to exit,"
+Disp "Otherwise, press any other"
+Disp "number to continue."
+Prompt C
+
+If C=0
+Then
+Stop
+
+Else
+"A^T b will be stored as [D], A^T A will be stored as [E]
+[A]^T*[B]→[D]
+[A]^T*[A]→[E]
+"Adds D on to E to form an augmented matrix
+augment([E],[D])→[F]
+"Solve the equation, store it in [G]
+rref([F])→[G]
+"Turn [G] to fraction form for easier reading
+[G]▷Frac
+Disp "Answer stored in"
+Disp "matrix [G]"
+End
