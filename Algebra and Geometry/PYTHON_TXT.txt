@@ -1,0 +1,24 @@
+# Note that this file has been modified for ease of reading.
+# It will not run on a TI-84.
+
+Disp "A²+B²=C²"
+Disp "WHAT IS SIDE A?"
+Prompt A
+If A≤0
+Then
+Disp "Error- A cannot be less"
+Disp "than or equal to 0"
+Else
+Disp "WHAT IS SIDE B?"
+Prompt B
+If B≤0
+Then
+Disp "Error- B cannot be less"
+Disp "than or equal to 0"
+Else
+A²→N
+B²→O
+N+O→P
+SQRT(P→C
+Disp "C="
+Disp C

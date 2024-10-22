@@ -1,0 +1,35 @@
+# Note that this file has been modified for ease of reading.
+# It will not run on a TI-84.
+
+Prompt A
+Prompt B
+Prompt C
+4*A*C→D
+B^2→E
+-1*B→F
+2*A→G
+E-D→H
+If H<0
+Then
+-1→W
+Else
+1→W
+End
+SQRT(H*W)→I
+If W=-1
+Then
+Disp "X1 and X2="
+Disp F
+Disp "                        +-"
+Disp I
+Disp "                         I"
+Disp "                         /"
+Disp G
+Else
+(F+I)/G→J
+(F-I)/G→K
+Disp "X1="
+Disp J
+Disp "X2="
+Disp K
+End

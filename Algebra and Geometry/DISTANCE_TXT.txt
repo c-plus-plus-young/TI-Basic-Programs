@@ -1,0 +1,17 @@
+# Note that this file has been modified for ease of reading.
+# It will not run on a TI-84.
+
+Disp "D=SQRT((X1-X2)²+(Y1-Y2)²)"
+Disp "WHAT IS X1?"
+Prompt E
+Disp "WHAT IS X2?"
+Prompt F
+Disp "WHAT IS Y1?"
+Prompt G
+Disp "WHAT IS Y2?"
+Prompt H
+(E-F)²→I
+(G-H)²→J
+SQRT(I+J)→D
+Disp "Distance ="
+Disp D

@@ -1,5 +1,6 @@
 # Note that this file has been modified for ease of reading.
 # It will not run on a TI-84.
+
 Disp "A^T b=A^T Ax"
 Disp "This program requires"
 Disp "matrices [A] and [B]"
@@ -24,7 +25,7 @@ augment([E],[D])→[F]
 "Solve the equation, store it in [G]
 rref([F])→[G]
 "Turn [G] to fraction form for easier reading
-[G]▷Frac
+[G]▶Frac
 Disp "Answer stored in"
 Disp "matrix [G]"
 End

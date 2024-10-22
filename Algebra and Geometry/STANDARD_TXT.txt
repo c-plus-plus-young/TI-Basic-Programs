@@ -1,0 +1,16 @@
+# Note that this file has been modified for ease of reading.
+# It will not run on a TI-84.
+
+Disp "AX+BY=C"
+Disp "WHAT IS A?"
+Prompt A
+Disp "WHAT IS B?"
+Prompt B
+Disp "WHAT IS C?"
+Prompt C
+-A/B→E
+C/B→F
+Disp "Y="
+Disp E▶Frac
+Disp "X+"
+Disp F▶Frac
