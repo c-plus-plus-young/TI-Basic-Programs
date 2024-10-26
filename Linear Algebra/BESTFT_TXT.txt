@@ -28,4 +28,5 @@ rref([F])→[G]
 [G]▶Frac
 Disp "Answer stored in"
 Disp "matrix [G]"
+Disp [G]▶Frac
 End

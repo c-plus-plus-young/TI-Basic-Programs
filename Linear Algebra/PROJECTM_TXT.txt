@@ -1,0 +1,27 @@
+"Program to find the projection matrix
+Disp "P=A(A^T A)A^T"
+Disp "This program requires"
+Disp "matrix [A] to have"
+Disp "already been made."
+Disp ""
+Disp "If you have not made it,"
+Disp "press 0 to exit,"
+Disp "Otherwise, press any other"
+Disp "number to continue."
+Prompt C
+
+If C=0
+Then
+Stop
+
+Else
+"Multiplies A by the inverse of A transpose by multiplied by itself
+"then multiples that by A transpose (formula for finding projection
+"matrix)
+([A]*([A]^T [A])*[A]^T)→[H]
+"Turn matrix H to fraction form for easier reading
+Disp "Answer stored in"
+Disp "matrix [H]:"
+[H]▶Frac
+Disp [H]▶Frac
+End

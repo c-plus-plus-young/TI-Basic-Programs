@@ -10,3 +10,7 @@ solution to b (p) for an inconsistent system. Create matrices
 [A] and [B] first (must have the same number of rows: A should
 be mxn, B should be mx1). Stores answer to a new matrix [G].
 [G] is an augmented matrix- the last column is the solution. 
+
+### PROJECTM
+Projection Matrix. Finds a projection matrix for the given
+matrix A. Outputs it in fraction form. 
